@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>intro component with signup form master</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3567039dcc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="left">
+    <h1 class="left-h1">Learn to code by watching others</h1>
+    <p class="left-p">See how exprienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+  </div>
+
+  <div class="right">
+    <div class="right-1">
+      <p class="right-1-p">Try it free 7 days <span class="right-1-span">then $20/mo. thereafter</span></p>
+    </div>
+
+    <div class="right-2">
+      <input type="text" placeholder="First Name">
+      <i class="fas fa-exclamation-circle fa-2x i-1 hide"></i>
+      <p class="e-1 e hide">First Name cannot be empty</p>
+      <input type="text" placeholder="Last Name">
+      <i class="fas fa-exclamation-circle fa-2x i-2 hide"></i>
+      <p class="e-2 e hide">Last Name cannot be empty</p>
+      <input type="text" placeholder="Email Address">
+      <i class="fas fa-exclamation-circle fa-2x i-3 hide"></i>
+      <p class="e-3 e hide">Looks like this is not an email</p>
+      <input type="password" placeholder="Password">
+      <i class="fas fa-exclamation-circle fa-2x i-4 hide"></i>
+      <p class="e-4 e hide">Password cannot be empty</p>
+      <a onclick="checkAll()" class="button">CLAIM YOUR FREE TRAIL</a>
+      <p class="right-2-p">By clicking the button you are agreeing to our <span class="right-2-span">Terms and Services</span></p>
+    </div>
+
+  </div>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
